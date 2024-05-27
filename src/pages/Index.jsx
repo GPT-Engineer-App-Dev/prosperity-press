@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box bg="gray.800" color="white" py={4}>
+      <Box bg="#fff1e5" color="white" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg" letterSpacing={"tighter"}>
             Financial Times
@@ -26,7 +26,7 @@ const Index = () => {
         {/* Featured Article Section */}
         <Box flex="3" mr={{ md: 4 }}>
           <Heading as="h2" size="xl" mb={4}>Featured Article</Heading>
-          <Box bg="gray.100" p={4} borderRadius="md">
+          <Box bg="#fff1e5" p={4} borderRadius="md">
             <Heading as="h3" size="lg" mb={2}>Breaking News: Market Hits Record Highs</Heading>
             <Text>In a surprising turn of events, the stock market reached new heights today...</Text>
           </Box>
@@ -36,13 +36,13 @@ const Index = () => {
         <Box flex="1" mt={{ base: 8, md: 0 }}>
           <Heading as="h2" size="lg" mb={4}>Trending</Heading>
           <VStack spacing={4} align="stretch">
-            <Box bg="gray.100" p={4} borderRadius="md">
+            <Box bg="#fff1e5" p={4} borderRadius="md">
               <Text>Article 1: Global Economic Outlook</Text>
             </Box>
-            <Box bg="gray.100" p={4} borderRadius="md">
+            <Box bg="#fff1e5" p={4} borderRadius="md">
               <Text>Article 2: Tech Innovations in 2023</Text>
             </Box>
-            <Box bg="gray.100" p={4} borderRadius="md">
+            <Box bg="#fff1e5" p={4} borderRadius="md">
               <Text>Article 3: Political Shifts Worldwide</Text>
             </Box>
           </VStack>
@@ -50,7 +50,7 @@ const Index = () => {
       </Flex>
 
       {/* Footer */}
-      <Box bg="gray.800" color="white" py={4} mt={8}>
+      <Box bg="#fff1e5" color="white" py={4} mt={8}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4} direction={{ base: "column", md: "row" }}>
           <Text>&copy; 2023 Financial Times</Text>
           <HStack spacing={8} mt={{ base: 4, md: 0 }}>
